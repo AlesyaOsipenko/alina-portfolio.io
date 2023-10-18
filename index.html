@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Alina's portfloio</title>
+
+  <meta name="description" content="My portfolio" />
+  <link rel="icon" type="image/png" href="./assets/dev-logo.png" />
+  <meta name="theme-color" content="#36d1dc" />
+
+  <!-- link tags -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="./javascript/scrollreveal.min.js"></script>
+  <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"></script>
+
+</head>
+
+<body>
+  <div id="hero">
+    <section class="container">
+      <h1 class="hero-title">
+        Привет, меня зовут <span class="text-color-main name">Алина</span>
+        <br />
+        и это моё портфолио 🤍
+      </h1>
+    </section>
+    <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+      <div class="scroll-down"></div>
+    </a>
+  </div>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">Обо мне</h2>
+      <div class="row about-wrapper">
+        <div class="about-wrapper__image">
+          <img class="img-fluid" src="./assets/me.jpg" alt="Profile Image" />
+        </div>
+        <div class="about-wrapper__info">
+          <p class="about-wrapper__info-text">
+            Меня зовут Алина, мне 16 лет. Я живу в городе Кировске, учусь в ГОУ ЛНР «КМГ»
+          </p>
+          <p class="about-wrapper__info-text">
+            Я очень добрая и отзывчивая, всегда помогу и поддержу в трудную минуту. Ненавижу несправедливость, буду
+            бороться с ней до последнего. Умею стоять на своем и добьюсь своего даже если на это уйдут все мои силы.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Мои хобби</h2>
+
+        <!-- Each .row is a project -->
+
+        <p class="project-wrapper__text-info">
+          Я очень люблю танцевать. Для меня танец - это самовыражение меня. Занимаюсь танцами уже 4 года, я живу этим.
+        </p>
+
+        <p class="project-wrapper__text-info">
+          Также я люблю фотографироваться и фотографировать все вокруг, в этих фото я запечатляю свои моменты жизни,
+          чтобы потом вспоминать их с улыбкой на лице. Фотографирую и просто красивые виды, я считаю их очень
+          эстетичными.
+        </p>
+
+        <p class="project-wrapper__text-info">
+          В свое свободное время я обожаю гулять с друзьями и семьей. Я очень люблю новые знакомства и с радостью
+          открываюсь новым людям. Если же гулять не охота, я просто слушаю музыку, которая меня невероятно успокаивает.
+        </p>
+
+        <div class="photos">
+          <div class="project-wrapper__image">
+            <div class="thumbnail rounded">
+              <img src="./assets/1.jpg" class="img-fluid" alt="Project Image" />
+            </div>
+          </div>
+          <div class="project-wrapper__image">
+            <div class="thumbnail rounded">
+              <img src="./assets/2.jpg" class="img-fluid" alt="Project Image" />
+            </div>
+          </div>
+          <div class="project-wrapper__image">
+            <div class="thumbnail rounded">
+              <img src="./assets/3.jpg" class="img-fluid" alt="Project Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title"></h2>
+      <img src="./assets/gif.gif" alt="gif">
+      <div class="contact-wrapper">
+        <a href="#" class="cta-btn cta-btn--resume">На этом всё, спасибо за внимание !</a>
+      </div>
+    </div>
+  </section>
+
+
+
+    <script src="./three.min.js"></script>
+    <script src="./vanta.net.min.js"></script>
+
+    <script src="./main.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+    
+
+  </body>
+</html>
